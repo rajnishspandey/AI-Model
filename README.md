@@ -15,8 +15,15 @@ ollama run llama3.2
 ```
 
 3 - now run the collection given in postman if you don't have download it.
-4 - inside the collection Model folder run create request
-5 - model will be cretaed and you can play around it.
+4 - now update the modelfile's system parameter as per your requirement.
+5 - inside the collection Model folder run create request
+6 - model will be cretaed and you can play around it.
+
+to test it you can run the command in you terminal 
+```shell
+ollama run rajnishspandey
+```
+and ask questions and get the response accordingly
 
 ### now let's push the model to ollama
 
@@ -28,6 +35,12 @@ ollama run llama3.2
 ollama cp rajnishspandey rajnishspandey/rajnishspandey
 ```
 here it's
+
+to test it you can run the command in you terminal 
+```shell
+ollama run rajnishspandey/rajnishspandey
+```
+and ask questions and get the response accordingly
 
 ollama cp (to copy) rajnishspandey<ollama user name>/rajnishspandey<model name>
 
