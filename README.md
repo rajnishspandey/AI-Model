@@ -15,3 +15,34 @@ ollama run llama3.2
 ```
 
 3 - now run the collection given in postman if you don't have download it.
+4 - inside the collection Model folder run create request
+5 - model will be cretaed and you can play around it.
+
+### now let's push the model to ollama
+
+1 - create account in ollama
+2 - find the public keys stored in your computer inside ollama's folder (it will get created when you download ollama)
+3 - now copy the public key to ollama
+4 - in command prompt run
+```shell
+ollama cp rajnishspandey rajnishspandey/rajnishspandey
+```
+here it's
+
+ollama cp (to copy) rajnishspandey<ollama user name>/rajnishspandey<model name>
+
+after this copy will get created
+
+now 
+
+run below command to push the model to ollama
+```shell
+ollama push rajnishspandey/rajnishspandey
+```
+
+![image](https://github.com/user-attachments/assets/a326f148-473c-4196-acc8-92a6e5fdf135)
+
+
+check the model on ollama
+
+https://ollama.com/rajnishspandey/rajnishspandey
