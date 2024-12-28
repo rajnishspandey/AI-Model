@@ -59,3 +59,7 @@ ollama push rajnishspandey/rajnishspandey
 check the model on ollama
 
 https://ollama.com/rajnishspandey/rajnishspandey
+
+
+to know more you can check the official documentation.
+https://github.com/ollama/ollama/blob/main/docs/import.md
